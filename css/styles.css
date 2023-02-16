@@ -2,6 +2,18 @@ body {
   margin: 10px;
 }
 
-p {
-    color: orange;
-  }
+#products {
+
+}
+
+.product {
+
+}
+
+a[target="_blank"] {
+
+}
+
+a[href^="https"] {
+  color: orange;
+}
