@@ -31,3 +31,11 @@ tr:nth-child(odd) {
 tfoot {
   text-align: left;
 }
+
+.box {
+  background: tomato;
+  width: 300px;
+  height: 300px;
+  box-shadow: 10px 10px lightgray;
+  border-radius: 10px;
+}
