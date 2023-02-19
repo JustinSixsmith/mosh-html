@@ -4,10 +4,31 @@ html {
 
 body {
     margin: 10px;
-    height: 200vh;
 }
 
-.boxes {
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.tweet {
+    border: 3px solid lightgray;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear {
+    clear: left;
+}
+
+/* .boxes {
     border: 3px solid lightgray;
     position: relative;
 }
@@ -33,4 +54,4 @@ body {
 
 .box-three {
     background-color: dodgerblue;
-}
+} */
