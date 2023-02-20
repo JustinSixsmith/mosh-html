@@ -1,4 +1,4 @@
-html {
+/* html {
   font-size: 62.5%;
 }
 
@@ -41,4 +41,14 @@ nav a:hover {
   nav li {
     margin: 0 1rem;
   }
+} */
+
+.gallery {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.gallery img {
+  object-fit: cover;
+  width: 100%;
 }
