@@ -1,41 +1,15 @@
 body {
   margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-table, td, th {
-  /* I've set all the borders using the border property
-  and then removed the left and right border. Alternatively,
-  we could set border-top and border-bottom properties but 
-  that would result in the repetition of the color. If we
-  want to change the border color, we have to change it in
-  two places. */
-  border: 1px solid #c4dcf3;
-  border-left: 0;
-  border-right: 0;
-  border-collapse: collapse;
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-td, th {
-  padding: 10px;
-}
-
-th {
-  background-color: #427fef;
-  color: white;
-}
-
-tr:nth-child(odd) {
-  background-color: #eef7ff;
-}
-
-tfoot {
-  text-align: left;
-}
-
-.box {
-  background: tomato;
-  width: 300px;
-  height: 300px;
-  box-shadow: 10px 10px lightgray;
-  border-radius: 10px;
+p {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1rem;
+  color: #333;
 }
