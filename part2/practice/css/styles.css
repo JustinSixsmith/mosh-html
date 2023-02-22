@@ -33,11 +33,11 @@ width:100px;height:100px;
 display:inline-block;
 }
 
-/* .meal:hover {
-  filter: grayscale(70%) blur(3px);
-} */
+body {
+  background: url(../images/constellation.svg);
+}
 
-.meal {
-  
+.ufo {
+  width: 100px;
 }
 
