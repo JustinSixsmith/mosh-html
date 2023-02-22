@@ -33,7 +33,11 @@ width:100px;height:100px;
 display:inline-block;
 }
 
-.meal:hover {
+/* .meal:hover {
   filter: grayscale(70%) blur(3px);
+} */
+
+.meal {
+  width: 400px;
 }
 
