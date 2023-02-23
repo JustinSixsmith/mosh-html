@@ -14,13 +14,18 @@
   </head>
   <body>
     <form>
-      <input type="text" list="countries" autocomplete="off" />
-      <datalist id="countries">
-        <option data-value="1">Australia</option>
-        <option>Canada</option>
-        <option>India</option>
-        <option>United States</option>
-      </datalist>
+      <select>
+        <optgroup label="Front-end Courses">
+          <option value="1" selected>HTML</option>
+          <option value="2">CSS</option>
+          <option value="3">JavaScript</option>
+        </optgroup>
+        <optgroup label="Back-end Courses">
+          <option value="4" selected>Node.js</option>
+          <option value="5">ASP.NET</option>
+          <option value="6">Django</option>
+        </optgroup>
+      </select>
     </form>
   </body>
 </html>
