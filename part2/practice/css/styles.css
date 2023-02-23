@@ -34,10 +34,14 @@ display:inline-block;
 }
 
 body {
-  background: url(../images/constellation.svg);
+  /* background: url(../images/constellation.svg); */
 }
 
 .ufo {
   width: 100px;
 }
 
+.icon {
+  font-size: 2rem;
+  color: dodgerblue;
+}
