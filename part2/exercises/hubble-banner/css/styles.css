@@ -7,7 +7,7 @@ html {
   }
 
 .hero {
-    background: url(../images/hubble200.jpg) no-repeat;
+  background: url(../images/background_w320.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -37,8 +37,8 @@ h1 {
 
   @media screen and (min-width: 768px) {
     .hero {
-        background: url("../images/hubble890.jpg") no-repeat;
-        background-size: cover;
+      background: url(../images/background_w853.jpg) no-repeat;
+      background-size: cover;
     }
     .hero .tagline {
         font-size: 3rem;
@@ -47,8 +47,8 @@ h1 {
 
   @media screen and (min-width: 1024px) {
     .hero {
-        background: url("../images/hubble1341.jpg") no-repeat;
-        background-size: cover;
+      background: url(../images/background_w1228.jpg) no-repeat;
+      background-size: cover;
     }
 
     h1 {
@@ -58,8 +58,8 @@ h1 {
 
   @media screen and (min-width: 1400px) {
     .hero {
-        background: url("../images/hubble1400.jpg") no-repeat;
-        background-size: cover;
+      background: url(../images/background_w1440.jpg) no-repeat;
+      background-size: cover;
     }
 
     h1 {
