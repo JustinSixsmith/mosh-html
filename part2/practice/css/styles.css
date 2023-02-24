@@ -9,17 +9,10 @@ body {
   width: 100px;
   height: 100px;
   background: gold;
+  transition: transform 0.5s, background 0.5s;
 }
 
-.container {
-  perspective: 200px;
-}
-
-.container:hover .box {
-  transform: rotateY(45deg);
-  transform-origin: 0 50%;
-}
-
-.container:hover .box-special {
-  transform: rotateX(45deg);
+.box:hover {
+  transform: rotate(45deg);
+  background: dodgerblue;
 }
